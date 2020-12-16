@@ -1,0 +1,48 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(255, 196, 243, 0.938);
+}
+
+#header_div h2{
+background-color: white;
+color: tomato;
+font-size: 40px;
+}
+#header_div img{
+    height:100px;
+    width:100px;
+}
+.main_div{
+    background-color: rgba(255, 196, 243, 0.938);
+    padding: 10px;  
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 15px;
+   
+    
+}
+
+.main_div label{
+    background:white;
+    width:310px;
+    padding:10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 15px white;
+    font-size: 30px;
+}
+
+#camera{
+    border : 2px solid white;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 15px white;
+}
+
+.main_div button{
+    width:310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 15px white;
+    border:1px solid;
+}
