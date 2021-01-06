@@ -17,22 +17,35 @@
 
   <body>
     <center>
-       <div class="col-xs 12" id="header_div">
+       <div class="col-xs-12" id="header_div">
          <h2>Image Identification
       <span> <img src="logo.gif" class="img-responsive"> </span></h2>
        </div>
 
-       <div class="col-sm 6 col-xs 12 main_div">
+       <div class="col-sm-6 col-xs-12 main_div">
          <label>| Webcam View |</label>
          <div id="camera"></div>
          <button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
        </div>
 
+       <div class="col-sm-6 col-xs-12 main_div">
+        <label>| Snapshot |</label>
+        <div id="snapshot_Pic"></div>
+        <button onclick="check();" class="btn btn-success">Identify Image</button>
+      </div>
 
     </center>
-
-
+     
+    <div class="col-xs-12 footer_div">
+     <h4 class="col-xs-12 col-sm-6">
+       <img src="blub.gif" style="height:50px;">
+       <span id="object_name"></span>
+     </h4>
+    </div>
     
+    <div class="copyright">
+      Devoleped by - Gaurang Vishwakarma
+    </div>
 <script src="main.js"></script>
   </body>
 </html>
